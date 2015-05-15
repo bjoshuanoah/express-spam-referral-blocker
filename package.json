@@ -1,0 +1,30 @@
+{
+  "name": "express-spam-referral-blocker",
+  "description": "Express middleware that blocks referral spam, and sends a 404.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Brian Noah",
+    "email": "brianjoshuanoah@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bjoshuanoah/express-spam-referral-blocker"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "spam",
+    "spam blocker",
+  ],
+  "dependencies": {
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "files": [
+    "Readme.md",
+    "index.js",
+    "lib/"
+  ]
+}
