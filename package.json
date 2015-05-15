@@ -15,10 +15,8 @@
     "express",
     "middleware",
     "spam",
-    "spam blocker",
+    "spam blocker"
   ],
-  "dependencies": {
-  },
   "engines": {
     "node": ">= 0.10.0"
   },
