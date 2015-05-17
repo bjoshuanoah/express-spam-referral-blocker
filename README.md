@@ -1,5 +1,5 @@
-# express-spam-referral-blocker
-Express middleware that blocks referral spam, and sends a 404.
+# express-spam-referral-blocker [![Build Status](https://travis-ci.org/bjoshuanoah/express-spam-referral-blocker.svg?branch=master)](https://travis-ci.org/bjoshuanoah/express-spam-referral-blocker)
+Express middleware that blocks referral spam, and sends a 404. 
 
 
 # Usage
