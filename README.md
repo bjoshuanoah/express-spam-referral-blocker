@@ -11,4 +11,15 @@ Express middleware that blocks referral spam, and sends a 404.
   use middleware
   
     var spamBlocker = require('express-spam-referral-blocker');
-    app.use(spamBlocker);
+    app.use(spamBlocker.send404);
+
+
+# Advanced Usage
+
+  Replace list of referals to block
+
+  	spamBlocker.setReferrers(['google.com', 'yahoo.com']);
+
+  Add to list of referals to block
+
+  	spamBlocker.addToReferrers(['google.com', 'yahoo.com']);
