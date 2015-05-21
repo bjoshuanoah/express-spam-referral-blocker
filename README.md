@@ -2,7 +2,7 @@
 Express middleware that blocks referral spam, and sends a 404. 
 
 
-# Usage
+## Usage
 
   install
   
@@ -14,7 +14,7 @@ Express middleware that blocks referral spam, and sends a 404.
     app.use(spamBlocker.send404);
 
 
-# Advanced Usage
+## Advanced Usage
 
   Replace list of referals to block
 
@@ -25,8 +25,13 @@ Express middleware that blocks referral spam, and sends a 404.
   	spamBlocker.addToReferrers(['google.com', 'yahoo.com']);
 
 
-# Current list
+## Current list
 
   * "4webmasters.org",
   * "best-seo-offer.com",
   * "buttons-for-your-website.com"	
+
+## Contribute
+
+    Update and add tests to tests/**/*.spec.js
+    Pull requests will verify that tests pass
