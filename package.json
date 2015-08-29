@@ -7,8 +7,8 @@
     "email": "brianjoshuanoah@gmail.com"
   },
   "scripts": {
-  	"test": " mocha tests/**/*.spec.js"
-	},
+    "test": "mocha tests/**/*.spec.js"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,6 +29,9 @@
     "lib/"
   ],
   "dependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "request": "^2.61.0",
+    "top-domain": "^0.0.6",
+    "underscore-node": "^0.1.2"
   }
 }

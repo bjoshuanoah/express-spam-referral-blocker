@@ -1,15 +1,15 @@
 # express-spam-referral-blocker [![Build Status](https://travis-ci.org/bjoshuanoah/express-spam-referral-blocker.svg?branch=master)](https://travis-ci.org/bjoshuanoah/express-spam-referral-blocker)
-Express middleware that blocks referral spam, and sends a 404. 
+Express middleware that blocks referral spam, and sends a 404.
 
 
 ## Usage
 
   install
-  
+
     npm install express-spam-referral-blocker --save
-  
+
   use middleware
-  
+
     var spamBlocker = require('express-spam-referral-blocker');
     app.use(spamBlocker.send404);
 
@@ -25,11 +25,9 @@ Express middleware that blocks referral spam, and sends a 404.
   	spamBlocker.addToReferrers(['google.com', 'yahoo.com']);
 
 
-## Current list
+##  Spammers list
 
-  * "4webmasters.org",
-  * "best-seo-offer.com",
-  * "buttons-for-your-website.com"	
+Uses [community-contributed list](https://github.com/piwik/referrer-spam-blacklist) of referrer spammers maintained by [Piwik](http://piwik.org/), and allows to use custom list as addition to it.
 
 ## Contribute
 
