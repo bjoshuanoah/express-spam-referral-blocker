@@ -36,7 +36,7 @@ module.exports.refreshPiwikReferrers = function(next) {
 					spamReferrers: referrers
 				};
 
-				fs.writeFile('./lib/piwik.spam.json', JSON.stringify(spam, null, 4), function(err) {
+				fs.writeFile(__dirname + '/lib/piwik.spam.json', JSON.stringify(spam, null, 4), function(err) {
 					if (err) {
 						console.error(err);
 						next(false);
